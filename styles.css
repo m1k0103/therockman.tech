@@ -43,16 +43,51 @@ header{
 
 
 /* Body and body items*/
-.main-container{
-    border: 4px rgb(0, 0, 0) solid;
-    width: 30%;
+@media (width >= 1200px) {
     
-    margin: auto;
-    position: relative;
-    top: 50%;
-    transform: translateY(150%);
+    .main-container{
+        border: 4px rgb(0, 0, 0) solid;
+        width: 30%;
+        
+        margin: auto;
+        position: relative;
+        top: 50%;
+        transform: translateY(150%);
+    }
+    .text-container {
+        text-align: center;
+        border:1px lightcyan solid;
+    }
 }
-.text-container {
-    text-align: center;
-    border:1px lightcyan solid;
+/*DESKTOP MAIN CONTAINER*/
+@media (width >= 1000px) {   
+    .main-container{
+        border: 4px rgb(0, 0, 0) solid;
+        width: 30%;
+        
+        margin: auto;
+        position: relative;
+        top: 50%;
+        transform: translateY(120%);
+    }
+    .text-container {
+        text-align: center;
+        border:1px lightcyan solid;
+    }
+}
+/*MOBILE MAIN CONTAINER*/
+@media (width < 1000px) {
+    .main-container{
+        border: 4px rgb(0, 0, 0) solid;
+        width: 90%;
+        
+        margin: auto;
+        position: relative;
+        top: 50%;
+        transform: translateY(100%);
+    }
+    .text-container {
+        text-align: center;
+        border:1px lightcyan solid;
+    }
 }
