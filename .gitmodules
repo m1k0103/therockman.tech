@@ -1,0 +1,3 @@
+[submodule "pastesite"]
+	path = pastesite
+	url = git@github.com:m1k0103/pastebin-clone.git
