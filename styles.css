@@ -1,3 +1,21 @@
+@property --_w {
+  syntax: '<length>';
+  inherits: true;
+  initial-value: 100vw; 
+}
+@property --_h {
+  syntax: '<length>';
+  inherits: true;
+  initial-value: 100vh; 
+}
+:root {
+  --w: tan(atan2(var(--_w),1px)); /* screen width */
+  --h: tan(atan2(var(--_h),1px)); /* screen height*/
+  /* The result is an integer without unit  */
+}
+
+
+
 body {
     background-color: rgb(255, 255, 255);
     margin: 0;
@@ -42,7 +60,7 @@ header{
 }
 
 
-/* Body and body items*/
+/* Body and body items*//*
 @media (width >= 1200px) {
     
     .main-container{
@@ -58,7 +76,7 @@ header{
         text-align: center;
         border:1px lightcyan solid;
     }
-}
+}*/
 /*DESKTOP MAIN CONTAINER*/
 @media (width >= 1000px) {   
     .main-container{
@@ -68,7 +86,7 @@ header{
         margin: auto;
         position: relative;
         top: 50%;
-        transform: translateY(120%);
+        transform: translateY(10vw);
     }
     .text-container {
         text-align: center;
