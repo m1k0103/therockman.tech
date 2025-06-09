@@ -39,13 +39,11 @@ header {
     text-shadow: 1px 1px 1px rgb(110, 110, 110);
 }
 
-
-
+/* DEFAULT STYLING */
 /* Main content */
 .description{
     margin: 5px 4% 2% 0;
 }
-
 .main-content{
     /*border: 1px red solid;*/
     margin: 2%;
@@ -61,4 +59,19 @@ header {
     overflow:hidden;
     margin-top: 0;
     font-size: x-large;
+}
+
+/* MOBILE STYLING */
+@media (width < 1000px){
+    .input-box{
+        border: 5px black solid;
+        border-radius: 3px;
+        height: 60vh;
+        width: 80%;
+        border-style: solid;
+        resize: none; 
+        overflow: hidden;
+        margin-top: 0;
+        font-size: x-large;
+    }
 }
