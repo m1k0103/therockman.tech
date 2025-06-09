@@ -41,17 +41,42 @@ header{
 
 /* Main container and texts */
 .main-container{
-    
+    text-align: center;
 }
 .projects-container{
-    display:inline-block;
     display: flex;
+    flex-wrap: wrap;
     justify-content: center;
-    border: 1px blue solid;
+    /*border: 1px blue solid;*/
+    overflow: wrap;
 }
 .project-item{
-    height: 30px;
-    width: auto;
-    border: 1px red solid;
-    margin: 5px;
+    height: 50vh;
+    width: 50vh;
+    border: 3px rgb(0, 0, 0) solid;
+    border-radius: 4px;
+    margin: 10px;
+    text-align: center;
+}
+.project-icon{
+    border: 2px rgb(0, 0, 0) solid;
+    border-radius: 5px;
+    margin: 4px;
+    height: 35vh;
+    width: 35vh;
+}
+.project-title{
+    margin: 0 0 4px 0;
+    font-weight: bold;
+    letter-spacing: 2px;
+}
+.project-description{
+    margin: 0 4px 0 4px;
+    /*border: 1px rgb(53, 212, 53) solid;
+    border: 1px rgb(0, 0, 0) solid;*/
+    border-radius: 4px;
+    height: 8vh;
+    top: 0;
+    overflow: scroll;
+    font-size: large;
 }
