@@ -29,12 +29,12 @@ header{
     color: rgb(0, 0, 0);
     font-size: 30px;
 }
-.navbar-item a:visited a:any-link{
+.navbar-item, a:visited, a:any-link{
     color: black;
-    text-decoration: none;
+    text-decoration: underline;
 }
 .navbar-item a:hover{
-    color: rgb(70, 70, 70);
+    color: rgb(110, 110, 110);
     text-shadow: 1px 1px 1px rgb(110, 110, 110);
 }
 
