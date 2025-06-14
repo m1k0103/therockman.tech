@@ -54,23 +54,24 @@ header{
     overflow: wrap;
 }
 .project-item{
-    height: 50vh;
-    width: 50vh;
+    height: 45vh;
+    width: 45vh;
     border: 3px rgb(0, 0, 0) solid;
-    border-radius: 4px;
+    border-radius: 15px;
     margin: 10px;
     text-align: center;
+    box-shadow: 0px 0px 10px 0px rgba(0,0,0,0.5);
 }
 .project-icon{
-    border: 2px rgb(0, 0, 0) solid;
+    border: 0px rgb(0, 0, 0) solid;
     border-radius: 5px;
     margin: 4px;
-    height: 35vh;
-    width: 35vh;
+    height: 30vh;
+    width: 30vh;
     object-fit: fill;
 }
 .project-title{
-    margin: 0 0 4px 0;
+    margin: 5px 0 13px 0;
     font-weight: bold;
     letter-spacing: 2px;
 }

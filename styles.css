@@ -81,7 +81,7 @@ header{
     .main-container{
         border: 4px rgb(0, 0, 0) solid;
         width: 30%;
-        
+        box-shadow: 0px 0px 10px 0px rgba(0,0,0,0.5);
         margin: auto;
         position: relative;
         top: 50%;
@@ -97,7 +97,7 @@ header{
     .main-container{
         border: 4px rgb(0, 0, 0) solid;
         width: 90%;
-        
+        box-shadow: 0px 0px 10px 0px rgba(0,0,0,0.5);
         margin: auto;
         position: relative;
         top: 50%;
