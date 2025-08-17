@@ -84,18 +84,15 @@ header{
     top: 0;
     font-size: x-large;
 }
+/* Dialog */
 dialog{
     position: fixed;
     top: 20%;
     left: 50%;
     transform: translate(-50%, -50%);
     box-shadow: 10px 10px 5px #888888;
+    border-radius: 15px;
 }
-/*
-dialog::backdrop{
-    background-color: rgba(0, 0, 0 / 25%);
-    filter: blur(1px);
-}*/
 .close-dialog-button{
     cursor: pointer;
     position: absolute;
@@ -104,6 +101,7 @@ dialog::backdrop{
     font-size: 40px;
 
 }
+/* Project buttons */
 .project-buttons{
     text-align: center;
     margin: 1vh;
