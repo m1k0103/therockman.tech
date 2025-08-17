@@ -42,6 +42,7 @@ header{
     padding: 0;
     display: flex;
     border: 1px black solid;
+    border-radius: 15px;
     padding: 0 10px 0 10px;   
 }
 .navbar-item{
@@ -86,10 +87,11 @@ header{
         position: relative;
         top: 50%;
         transform: translateY(10vw);
+        border-radius: 15px;
     }
     .text-container {
         text-align: center;
-        border:1px lightcyan solid;
+        /*border:1px lightcyan solid;*/
     }
 }
 /*MOBILE MAIN CONTAINER*/
@@ -102,9 +104,10 @@ header{
         position: relative;
         top: 50%;
         transform: translateY(32%);
+        border-radius: 15px;
     }
     .text-container {
         text-align: center;
-        border:1px lightcyan solid;
+        /*border:1px lightcyan solid;*/
     }
 }
