@@ -80,8 +80,46 @@ header{
     /*border: 1px rgb(53, 212, 53) solid;
     border: 1px rgb(0, 0, 0) solid;*/
     border-radius: 4px;
-    height: 8vh;
+    height: fit-content;
     top: 0;
-    overflow: scroll;
-    font-size: large;
+    font-size: x-large;
+}
+dialog{
+    position: fixed;
+    top: 20%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    box-shadow: 10px 10px 5px #888888;
+}
+/*
+dialog::backdrop{
+    background-color: rgba(0, 0, 0 / 25%);
+    filter: blur(1px);
+}*/
+.close-dialog-button{
+    cursor: pointer;
+    position: absolute;
+    top: 3px;
+    right: 3px;
+    font-size: 40px;
+
+}
+.project-buttons{
+    text-align: center;
+    margin: 1vh;
+    height: 4vh;
+    font-size: 2.5vh;
+    border-radius: 4px;
+    border: 1px black solid;
+    background-color: white;
+}
+.project-buttons:hover{
+    border: 1px rgb(110, 110, 110) solid;
+    color: rgb(110, 110, 110);
+    text-decoration: underline;
+}
+
+.project-buttons-container{
+    display: flex;
+    justify-content: center;
 }

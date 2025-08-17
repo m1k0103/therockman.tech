@@ -25,32 +25,79 @@
     <div class="main-container">
         <h1>My projects</h1>
         <div class="projects-container">
-            <!--Project 1-->
-            <a href="https://github.com/m1k0103/FlaskWebArchiver">
-                <div class="project-item">
-                    <img class="project-icon" src="../images/projects/flask_python_logo.svg">
-                    <div class="project-title">Flask Web Archiver</div>
-                    <div class="project-description">A clone of Internet Archive's website archiver created in Python using Flask. This was my A level final project. The code is currently pretty buggy and I am not sure if it works, but it was a good project to learn web technologies and web scraping.</div>
-                </div>
-            </a>
-            <!--Project 2-->
-            <a href="https://github.com/m1k0103/ebay_notifier">
-                <div class="project-item">
-                    <img class="project-icon" src="../images/projects/ebay_logo.jpg">
-                    <div class="project-title">Ebay Listing Notifier</div>
-                    <div class="project-description">An Ebay listing notifier. It is built using the BeautifulSoup and Requests libraries, and allows for multiple Ebay search links to be searched in a specified interval. Also includes an autostart file.</div>
-                </div>
-            </a>
-            <!--Project 3-->
-            <a href="#">
-                <div class="project-item">
-                    <img class="project-icon" src="../images/icon.jpeg"><!--REPLACE THIS IMAGE. THINK OF SOMETHING PLS-->
-                    <div class="project-title">This website!</div>
-                    <div class="project-description">This website is also a project that I am using to learn some web technologies (especially css), and start creating an online presence.</div>
-                </div>
-            </a>
 
-            
+            <!--Project 1-->
+            <div class="project-item">
+                <img class="project-icon" src="../images/projects/flask_python_logo.svg">
+                <div class="project-title">Flask Web Archiver</div>
+                <!--Project buttons-->
+                <div class="project-buttons-container">
+                    <button class="project-buttons" onclick="document.getElementById('project-1-dialog').showModal()">Read more</button>
+                    <button class="project-buttons" onclick="document.location = `https://github.com/m1k0103/FlaskWebArchiver`">View on Github</button>
+                </div>
+                <!--Project Dialog-->
+                <dialog id="project-1-dialog">
+                    <span class="close-dialog-button" onclick="document.getElementById('project-1-dialog').close()">&times;</span>
+                    <div class="project-description">
+                        A clone of Internet Archive's website archiver created in Python using Flask. This was my A level final project. The code is currently pretty buggy and I am not sure if it works, but it was a good project to learn web technologies and web scraping.
+                    </div>
+                </dialog>
+            </div>
+
+            <!--Project 2-->
+            <div class="project-item">
+                <img class="project-icon" src="../images/projects/ebay_logo.jpg">
+                <div class="project-title">Ebay Listing Notifier</div>
+                <!--Project buttons-->
+                <div class="project-buttons-container">
+                    <button class="project-buttons" onclick="document.getElementById('project-2-dialog').showModal()">Read more</button>
+                    <button class="project-buttons" onclick="document.location = `https://github.com/m1k0103/ebay_notifier`">View on Github</button>
+                </div>
+                <!--Project Dialog-->
+                <dialog id="project-2-dialog">
+                    <span class="close-dialog-button" onclick="document.getElementById('project-2-dialog').close()">&times;</span>
+                    <div class="project-description">
+                        An Ebay listing notifier. It is built using the BeautifulSoup and Requests libraries, and allows for multiple Ebay search links to be searched in a specified interval. Also includes an autostart file.
+                    </div>
+                </dialog>
+            </div>
+
+            <!--Project 3-->
+            <div class="project-item">
+                <img class="project-icon" src="../images/icon.jpeg"><!--REPLACE THIS IMAGE. THINK OF SOMETHING PLS-->
+                <div class="project-title">This website!</div>
+                <!--Project buttons-->
+                <div class="project-buttons-container">
+                    <button class="project-buttons" onclick="document.getElementById('project-3-dialog').showModal()">Read more</button>
+                    <button class="project-buttons" onclick="document.location = `https://github.com/m1k0103/therockman.tech`">View on Github</button>
+                </div>
+                <!--Project Dialog-->
+                <dialog id="project-3-dialog">
+                    <span class="close-dialog-button" onclick="document.getElementById('project-3-dialog').close()">&times;</span>
+                    <div class="project-description">
+                        This website is also a project that I am using to learn some web technologies (especially css), and start creating an online presence.
+                    </div>
+                </dialog>
+            </div>
+
+            <!--Project 4-->
+            <div class="project-item">
+                <img class="project-icon" src="../images/icon.jpeg"><!--REPLACE THIS IMAGE. THINK OF SOMETHING PLS-->
+                <div class="project-title">Morning Assistant</div>
+                <!--Project buttons-->
+                <div class="project-buttons-container">
+                    <button class="project-buttons" onclick="document.getElementById('project-4-dialog').showModal()">Read more</button>
+                    <button class="project-buttons" onclick="document.location = `#`">View on Github</button>
+                </div>
+                <!--Project Dialog-->
+                <dialog id="project-4-dialog">
+                    <span class="close-dialog-button" onclick="document.getElementById('project-4-dialog').close()">&times;</span>
+                    <div class="project-description">
+                        This is currently a work in progress, but I am creating a morning assistant which will be able to tell me the weather and remind me of things to do in the morning as soon as I wake up. It will include weight input, saving, and plotting, showing the weather forecast, and webhook reporting. Lots of potential for this one! I am excited to be making it.
+                    </div>
+                </dialog>
+            </div>
+                
         </div>
     </div>
 </body>
